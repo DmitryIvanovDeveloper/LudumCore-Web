@@ -1,15 +1,4 @@
 <linker>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="SojaExiles.ClosetopencloseDoor" preserve="all" />
-    <type fullname="SojaExiles.Drawer_Pull_X" preserve="all" />
-    <type fullname="SojaExiles.Drawer_Pull_Z" preserve="all" />
-    <type fullname="SojaExiles.Drawer_Pull_Zopp" preserve="all" />
-    <type fullname="SojaExiles.opencloseDoor" preserve="all" />
-    <type fullname="SojaExiles.opencloseDoor1" preserve="all" />
-    <type fullname="SojaExiles.opencloseSlide" preserve="all" />
-    <type fullname="SojaExiles.OvenFlip" preserve="all" />
-    <type fullname="TableFlipL" preserve="all" />
-  </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueActor" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueDatabase" preserve="all" />
@@ -43,12 +32,35 @@
     <type fullname="PixelCrushers.Wrappers.UIScrollbarEnabler" preserve="all" />
   </assembly>
   <assembly fullname="NewAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Assets.Scripts.Game.Common.BusinessTasks" preserve="all" />
+    <type fullname="DayComplete" preserve="all" />
+    <type fullname="DIInstaller" preserve="all" />
+    <type fullname="DragAndDrop" preserve="all" />
     <type fullname="LudumCore.Game.Common.CutSceneLoader" preserve="all" />
+    <type fullname="LudumCore.Game.Common.DayButton" preserve="all" />
+    <type fullname="LudumCore.Game.Common.LoadingBar" preserve="all" />
     <type fullname="LudumCore.Game.Common.MouseLook" preserve="all" />
     <type fullname="LudumCore.Game.Common.PlayerMovement" preserve="all" />
     <type fullname="LudumCore.Game.Common.Teleport" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTask" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTaskSettings" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Calendar.Calendar" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Calendar.Day" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Calendar.DayTask" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Employee.Employee" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.EmployeeProfile.EmployeesProfiles" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.GameTime.GameTime" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Messanger.Message" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Messanger.Messenger" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Notebook.Note" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Notebook.Notebook" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Organiser.Organiser" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.PostIt.PostIt" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Profile.Profile" preserve="all" />
+    <type fullname="LudumCore.Settings.Employee" preserve="all" />
+    <type fullname="OrganiserButton" preserve="all" />
+    <type fullname="TasksManager" preserve="all" />
+    <type fullname="LudumCore.Game.Common.Competence" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -62,6 +74,7 @@
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_Dropdown" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
@@ -69,10 +82,13 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
@@ -85,15 +101,17 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
-    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
@@ -104,10 +122,6 @@
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
-    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
@@ -120,10 +134,14 @@
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.InputField" preserve="all" />
@@ -151,11 +169,16 @@
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Zenject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Zenject.SceneContext" preserve="all" />
   </assembly>
   <assembly fullname="DialogueSystem">
     <type fullname="PixelCrushers.DialogueSystem.Actor" preserve="nothing" serialized="true" />
