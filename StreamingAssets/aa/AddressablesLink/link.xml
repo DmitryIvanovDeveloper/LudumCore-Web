@@ -5,6 +5,7 @@
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueSystemController" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueSystemEvents" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueSystemTrigger" preserve="all" />
+    <type fullname="PixelCrushers.DialogueSystem.Wrappers.OverrideDialogueUI" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.Selector" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.StandardDialogueUI" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.StandardUIButtonTemplate" preserve="all" />
