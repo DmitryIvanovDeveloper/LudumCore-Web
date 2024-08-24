@@ -34,6 +34,7 @@
   </assembly>
   <assembly fullname="NewAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Assets.Scripts.Game.Common.BusinessTasks" preserve="all" />
+    <type fullname="Assets.Scripts.Game.Mentor.Mentor" preserve="all" />
     <type fullname="DayComplete" preserve="all" />
     <type fullname="DIInstaller" preserve="all" />
     <type fullname="DragAndDrop" preserve="all" />
@@ -42,6 +43,7 @@
     <type fullname="LudumCore.Game.Common.LoadingBar" preserve="all" />
     <type fullname="LudumCore.Game.Common.MouseLook" preserve="all" />
     <type fullname="LudumCore.Game.Common.PlayerMovement" preserve="all" />
+    <type fullname="LudumCore.Game.Common.Pointer" preserve="all" />
     <type fullname="LudumCore.Game.Common.Teleport" preserve="all" />
     <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTask" preserve="all" />
     <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTaskSettings" preserve="all" />
@@ -116,6 +118,7 @@
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
