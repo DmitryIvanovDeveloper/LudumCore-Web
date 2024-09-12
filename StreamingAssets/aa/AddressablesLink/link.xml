@@ -32,6 +32,12 @@
     <type fullname="PixelCrushers.Wrappers.UIPanel" preserve="all" />
     <type fullname="PixelCrushers.Wrappers.UIScrollbarEnabler" preserve="all" />
   </assembly>
+  <assembly fullname="LeTai.TranslucentImage, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LeTai.Asset.TranslucentImage.ScalableBlurConfig" preserve="all" />
+    <type fullname="LeTai.Asset.TranslucentImage.TranslucentImage" preserve="all" />
+    <type fullname="LeTai.Asset.TranslucentImage.TranslucentImageSource" preserve="all" />
+    <type fullname="LeTai.Asset.TranslucentImage.BackgroundFill" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="NewAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Assets.Scripts.Game.Common.BusinessTasks" preserve="all" />
     <type fullname="Assets.Scripts.Game.Mentor.Mentor" preserve="all" />
@@ -45,6 +51,7 @@
     <type fullname="LudumCore.Game.Common.PlayerMovement" preserve="all" />
     <type fullname="LudumCore.Game.Common.Pointer" preserve="all" />
     <type fullname="LudumCore.Game.Common.Teleport" preserve="all" />
+    <type fullname="LudumCore.Game.Common.VideoPlayerController" preserve="all" />
     <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTask" preserve="all" />
     <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTaskSettings" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Calendar.Calendar" preserve="all" />
@@ -60,7 +67,13 @@
     <type fullname="LudumCore.Game.Domain.Organiser.Organiser" preserve="all" />
     <type fullname="LudumCore.Game.Domain.PostIt.PostIt" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Profile.Profile" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.ProjectCharter.Paragraph" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.ProjectCharter.ProjectCharter" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.ProjectCharter.Variant.Variant" preserve="all" />
+    <type fullname="LudumCore.Game.Util.LuaRegistrationMethods" preserve="all" />
     <type fullname="LudumCore.Settings.Employee" preserve="all" />
+    <type fullname="LudumCore.Settings.Paragraph" preserve="all" />
+    <type fullname="LudumCore.Settings.Variant" preserve="all" />
     <type fullname="OrganiserButton" preserve="all" />
     <type fullname="TasksManager" preserve="all" />
     <type fullname="LudumCore.Game.Common.Competence" preserve="nothing" serialized="true" />
@@ -86,12 +99,12 @@
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
@@ -101,10 +114,12 @@
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.CustomRenderTexture" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
@@ -140,6 +155,7 @@
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
@@ -180,6 +196,9 @@
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
   </assembly>
   <assembly fullname="Zenject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Zenject.SceneContext" preserve="all" />
