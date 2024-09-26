@@ -1,4 +1,9 @@
 <linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AIPatrol" preserve="all" />
+    <type fullname="Assets.SimpleSpinner.SimpleSpinner" preserve="all" />
+    <type fullname="LuaRegistrationProjectCharter" preserve="all" />
+  </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueActor" preserve="all" />
     <type fullname="PixelCrushers.DialogueSystem.Wrappers.DialogueDatabase" preserve="all" />
@@ -54,17 +59,17 @@
     <type fullname="LudumCore.Game.Common.VideoPlayerController" preserve="all" />
     <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTask" preserve="all" />
     <type fullname="LudumCore.Game.Domain.BusinessTask.BusinessTaskSettings" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.BusinessTaskGame.BusinessTaskGame" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Calendar.Calendar" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Calendar.Day" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Calendar.DayTask" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Employee.Employee" preserve="all" />
     <type fullname="LudumCore.Game.Domain.EmployeeProfile.EmployeesProfiles" preserve="all" />
-    <type fullname="LudumCore.Game.Domain.GameTime.GameTime" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Messanger.Message" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Messanger.Messenger" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Notebook.Note" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Notebook.Notebook" preserve="all" />
-    <type fullname="LudumCore.Game.Domain.Organiser.Organiser" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Organiser.OrganiserController" preserve="all" />
     <type fullname="LudumCore.Game.Domain.PostIt.PostIt" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Profile.Profile" preserve="all" />
     <type fullname="LudumCore.Game.Domain.ProjectCharter.Paragraph" preserve="all" />
@@ -80,6 +85,9 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="all" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -105,6 +113,10 @@
     <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
