@@ -73,6 +73,7 @@
     <type fullname="LudumCore.Game.Domain.Messanger.Messenger" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Notebook.Note" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Notebook.Notebook" preserve="all" />
+    <type fullname="LudumCore.Game.Domain.Notebook.NoteEditor" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Organiser.OrganiserController" preserve="all" />
     <type fullname="LudumCore.Game.Domain.PostIt.PostIt" preserve="all" />
     <type fullname="LudumCore.Game.Domain.Profile.Profile" preserve="all" />
